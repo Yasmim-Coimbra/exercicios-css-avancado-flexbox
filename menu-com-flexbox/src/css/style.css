@@ -1,0 +1,61 @@
+body {
+    font-family: "Public Sans", sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 45px 45px 0 45px;
+    justify-content: space-between;
+}
+
+.logo-nome {
+    display: flex;
+    align-items: center;
+}
+
+.nome-banco {
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 5px;
+    color: #000;
+    margin-left: 5px;
+}
+
+.categorias-nav {
+    font-weight: 400;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.categorias-nav li:not(.botao-cadastro):hover{
+    cursor: pointer;
+    background-color: #5BC241;
+    color: #FFFFFF;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button.botao-cadastro {
+    font-weight: 300;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    background-color: #5BC241;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+button.botao-cadastro:hover {
+    cursor: pointer;
+    width: 132px;
+    height: 44px;
+    border-radius: 10px;
+}

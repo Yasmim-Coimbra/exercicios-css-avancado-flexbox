@@ -1,0 +1,59 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-size: 20px;
+    font-family: "Kumbh Sans";
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.cartao {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 330px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.informacoes-pessoais {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+}
+
+.informacoes-pessoais img {
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.informacoes-perfil {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid hsl(227, 10%, 46%);
+    align-items: center;
+    padding: 20px 15px 0 15px;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.idade,
+.cidade,
+.categoria {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+.nome,
+.numero-categoria {
+    font-weight: 700;
+}

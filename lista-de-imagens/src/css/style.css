@@ -1,0 +1,52 @@
+body {
+    font-family: "Public Sans", sans-serif;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pinturas {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 20px;
+    flex-wrap: wrap;
+}
+
+.pintura {
+    width: 335px;
+    height: 431px;
+}
+
+.pintura img {
+    width: 100%;
+}
+
+figure {
+    height: 431px;
+}
+
+.nome-artista {
+    font-weight: 400;
+}
+
+.nome-quadro {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.legenda-foto {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #ffff;
+    transform: translateY(-100px);
+    margin-left: 20px;
+}

@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: flex-start;
+    }
+
+    .nome-banco {
+        width: 160px;
+        height: 47px;
+        font-size: 40px;
+        margin: 0;
+        margin-left: 5px;
+    }
+
+    .categorias-nav {
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 70px;
+    }
+
+    .categorias-nav li:not(.botao-cadastro):hover {
+        width: 200px;
+        height: 60px;
+    }
+
+    button.botao-cadastro {
+        font-size: 20px;
+        width: 150px;
+        height: 55px;
+        margin: 0;
+        margin-top: 45px;
+    }
+
+    button.botao-cadastro:hover {
+        cursor: pointer;
+        width: 160px;
+        height: 60px;
+    }
+}
