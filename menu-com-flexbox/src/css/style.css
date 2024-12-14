@@ -43,6 +43,10 @@ body {
     align-items: center;
 }
 
+.botao-cadastro a {
+    color: #FFFFFF;
+}
+
 button.botao-cadastro {
     font-weight: 300;
     text-align: center;
@@ -50,7 +54,6 @@ button.botao-cadastro {
     height: 40px;
     background-color: #5BC241;
     border-radius: 10px;
-    color: #FFFFFF;
 }
 
 button.botao-cadastro:hover {
